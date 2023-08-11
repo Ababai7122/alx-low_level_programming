@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * main - intry point
+ * main - Entry point
  *
  * Description: prints the alphabet in lowercase
  *
- *Return: 0 (success)
+ *Return: Always 0 (Success)
 */
 
 int main(void)
@@ -16,7 +16,7 @@ int main(void)
 		putchar(ch);
 		ch++;
 	}
-	outchar('\n');
+	putchar('\n');
 
 	return (0);
 }
