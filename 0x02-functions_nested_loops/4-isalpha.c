@@ -1,7 +1,7 @@
 #include"main.h"
 
 /**
- * _isalpha _ chech weather the character is lowwercase or uppercase
+ * _isalpha - chech weather the character is lowwercase or uppercase
  *
  * @c: takes input formmother functions
  *
