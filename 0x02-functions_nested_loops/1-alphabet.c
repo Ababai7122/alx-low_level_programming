@@ -1,20 +1,16 @@
+
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
- * Description: prints the alphabet, in lowercase, followed by a new line
- *
- * Returns 0 Alway (Success)
+ * print_alphabet - use _putchar to print alphabit a - z
 */
 
-int main(void)
-{
-	char ch = 'a';
-	
-	while(ch <= 'z');
+void print_alphabet(void)
 
-	printf ("ch\n");
-	
-	return (0);
+{
+	int ch;
+
+	for (ch	= 'a'; ch <= 'z'; ch++)
+		_putchar(ch);
+	_putchar('\n');
 {
