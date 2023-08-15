@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * main - Entry point
@@ -6,7 +6,7 @@
  * Description: use prototype to prints _putchar, followed by a new line
  *
  * Return 0 Always (Success)
-*/
+ */
 
 int main(void)
 {
